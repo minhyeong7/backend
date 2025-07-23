@@ -13,6 +13,7 @@ public class _06_Break {
                System.out.println(i+"번 손님 기회가 넘어갔습니다");
                 i++;
                 continue;
+
            }
             sold++;
 

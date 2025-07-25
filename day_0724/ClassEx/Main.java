@@ -8,10 +8,11 @@ public class Main {
         Dog dog2= new Dog("바둑이",5);
         Dog dog3= new Dog("흰둥이");
         Dog dog4= new Dog();
+
+
         Cat cat1= new Cat("먼치킨",5,'남');
 
-
-
+        cat1.introduce();
 
 
         dog1.introduce();
@@ -42,5 +43,12 @@ public class Main {
         System.out.println(dog1.bark);
         System.out.println(Dog.count);
 
+
+        int bob = cat1.feedCount(5);
+        System.out.println("밥 횟수"+bob);
+
+
+        int bob2= cat1.feedCount(4,3);
+        System.out.println(bob2);
     }
 }

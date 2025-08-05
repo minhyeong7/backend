@@ -10,4 +10,6 @@ public class Book {
     }
 
 
+    public static class Manager {
+    }
 }

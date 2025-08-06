@@ -5,6 +5,7 @@ public class Hamburger {
 
     Hamburger(String name){
         this.name=name;
+
     }
 
     void cook(){

@@ -2,6 +2,7 @@ package day_0806.MultiInterface;
 
 public class Main {
     public static void main(String[] args) {
+
         BluetoothMIC bm = new BluetoothMIC();
 
         bm.music();

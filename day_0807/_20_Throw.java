@@ -17,5 +17,8 @@ public class _20_Throw {
         }finally{
             System.out.println("판매가 종료되었습니다");
         }
+
+
+
     }
 }
